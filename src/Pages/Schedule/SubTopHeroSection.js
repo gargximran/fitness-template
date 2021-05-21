@@ -5,7 +5,7 @@ import heroImage from '../../assets/images/heroImage/heroBack.webp'
 const SubTopHeroSection = () => {
     return (
         <div>
-            <TopHeroSection heroImage={heroImage} title={'Schedule'}/>
+            <TopHeroSection hero={heroImage} title={'Schedule'}/>
         </div>
     )
 }
