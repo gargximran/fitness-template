@@ -1,0 +1,37 @@
+.header-nav-menu{
+    @apply text-paragraph md:text-sub-head-6 my-4 md:my-0 uppercase lg:text-white tracking-wider font-primary font-medium mx-4 text-gray-700;
+    z-index: 999;
+}
+
+.nav-menu-ul{
+    @apply list-disc md:list-none lg:flex lg:mr-64 lg:mt-4 lg:bg-none pt-8 md:pt-0 pl-3 md:pl-0;
+}
+
+.nav-wrapper{
+    transition: all 200ms ease-in-out !important;
+
+}
+
+
+@media only screen and (max-width: 922px) {
+    .nav-wrapper{
+        @apply w-screen h-screen fixed bg-transparent;
+        z-index: 9999;
+    }
+
+    .nav-menu-ul{
+        @apply w-2/3 bg-white h-screen shadow;
+    }
+
+    .nav-click-layer{
+        @apply w-1/3 h-full absolute right-0 bg-white bg-opacity-50;
+    }
+}
+
+.nav-trigger-icon{
+    @apply absolute flex lg:hidden top-3 right-3;
+    z-index: -1;
+}
+
+
+

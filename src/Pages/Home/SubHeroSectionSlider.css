@@ -1,0 +1,3 @@
+.sub-hero-section-slider{
+    @apply h-60 md:h-screen bg-cover bg-center bg-no-repeat bg-top;
+}

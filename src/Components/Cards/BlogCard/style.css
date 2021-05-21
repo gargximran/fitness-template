@@ -1,0 +1,19 @@
+.blog-card-date-badge{
+    @apply absolute bg-primary p-1 text-paragraph-sm font-primary text-white right-4 -bottom-3 font-medium tracking-wider;
+}
+
+.blog-card-author{
+    @apply text-sub-head-4 md:text-sub-head-2 font-semibold font-primary text-white;
+}
+
+.blog-card-title{
+    @apply text-sub-head-3 md:text-sub-head-2 pt-1 font-medium font-primary text-white;
+}
+
+.blog-card-text{
+    @apply font-primary pt-2 text-sm md:text-paragraph text-white text-justify;
+}
+
+.blog-card-link{
+    @apply text-white text-paragraph font-secondary flex hover:text-primary inline-flex;
+}

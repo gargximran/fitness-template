@@ -1,0 +1,12 @@
+.sub-hero-overlay-wrapper{
+    @apply h-60 md:h-screen w-full flex justify-center items-center absolute top-0 left-0;
+    background: linear-gradient(to right, rgba(255, 61, 0, 0.34), rgba(255, 0, 0, 0.34));
+}
+
+.sub-hero-overlay-title-thin{
+    @apply font-primary text-center text-sub-head-2 md:text-head-4 font-medium text-white tracking-wider capitalize;
+}
+
+.sub-hero-overlay-title-bold{
+    @apply mt-2 font-primary text-center text-sub-head-1 md:text-head-3 font-bold text-white tracking-wider uppercase;
+}

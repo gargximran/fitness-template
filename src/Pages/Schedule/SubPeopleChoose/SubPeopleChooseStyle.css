@@ -1,0 +1,25 @@
+
+.peopleChooseCard-title{
+    @apply text-white lg:text-sub-head-4 font-bold font-primary mt-2 uppercase
+}
+
+.peopleChooseCard-content{
+    @apply text-white text-xs md:text-sm font-primary mt-2
+}
+
+.subPeopleChoose-title {
+@apply text-white font-primary text-sub-head-3 md:text-sub-head-1 lg:text-head-8 text-center font-bold uppercase
+}
+
+.subPeopleChoose-subtitle{
+@apply text-white font-primary mt-5 text-center text-sm lg:text-sub-head-5
+}
+
+.subPeopleChoose-cards-container{
+@apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8  mt-10
+}
+
+
+
+
+

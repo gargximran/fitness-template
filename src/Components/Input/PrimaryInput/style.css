@@ -1,0 +1,8 @@
+.primaryInputField{
+    @apply focus:outline-none mt-4 bg-transparent text-paragraph pt-2 pb-1 pl-1 border-b border-white;
+}
+
+.primaryInputFieldLabel{
+    @apply absolute  text-gray-400 left-0 transition-all duration-300;
+}
+

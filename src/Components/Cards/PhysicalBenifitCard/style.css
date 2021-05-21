@@ -1,0 +1,7 @@
+.physicalBenifit-card-title{
+    @apply text-white lg:text-sub-head-4 font-bold font-primary mt-2 
+}
+
+.physicalBenifit-card-content{
+    @apply text-white text-xs font-primary mt-2
+}

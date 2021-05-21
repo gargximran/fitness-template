@@ -1,0 +1,50 @@
+.btn{
+    @apply focus:outline-none transform transition-all duration-500 active:translate-y-0.5 font-primary capitalize overflow-hidden  active:opacity-80;
+    transition: translate 0.2s ease-in-out;
+    transition: color 500ms ease-in-out;
+
+}
+
+.btn-outline-primary{
+    @apply btn border-2 border-primary text-white relative;
+}
+
+.btn-outline-primary::before{
+    content: '';
+    height: 1px;
+    width: 1px;
+    @apply bg-primary absolute rounded-full;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 500ms;
+    opacity: 0;
+    z-index: -1;
+}
+
+.btn-outline-primary:hover:before{
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+}
+
+.btn-fill-primary{
+    @apply btn border-2 border-primary text-white bg-primary relative hover:bg-primary-hover hover:border-primary-hover active:opacity-80 hover:text-gray-300;
+    transition: color 0.2s;
+}
+
+.btn-large{
+    @apply px-3 py-1 text-sub-head-2 font-medium;
+}
+
+.btn-medium{
+    @apply px-3 py-1 text-sub-head-3 font-medium;
+}
+
+.btn-small{
+    @apply px-3 py-1 text-sub-head-5 font-medium;
+}
+
+.btn-x-small{
+    @apply px-3 py-1 text-sub-head-6 font-medium;
+}

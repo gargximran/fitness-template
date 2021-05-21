@@ -1,0 +1,19 @@
+.our-class-card-wrapper{
+    @apply w-full bg-black bg-center bg-no-repeat h-full relative
+}
+
+.our-class-card-title{
+    @apply tracking-wider pb-4 text-sub-head-4 md:text-sub-head-3 text-white font-primary font-extrabold text-center uppercase;
+}
+
+.our-class-card-text{
+    @apply pb-9 font-extralight text-paragraph-sm md:text-paragraph md:font-medium text-white tracking-wider text-center text-white w-4/5 mx-auto;
+}
+
+.our-class-card-focus{
+    @apply border-t-4 border-primary opacity-0 transition duration-200 absolute left-0 bottom-0 w-full z-50;
+}
+
+.our-class-card-wrapper:hover .our-class-card-focus{
+    @apply opacity-100;
+}

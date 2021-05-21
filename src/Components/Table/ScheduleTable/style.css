@@ -1,0 +1,34 @@
+.schedule-table-head-tr{
+    @apply text-sub-head-2 font-semibold font-primary text-white;
+}
+
+.schedule-table-head-th{
+    @apply border border-gray-400 px-5 text-center py-4;
+}
+
+.schedule-table-body-tr{
+    @apply border border-gray-400 text-center;
+}
+
+.schedule-changer{
+    @apply uppercase font-primary text-sub-head-5 md:text-sub-head-5 text-white font-semibold inline-block mx-2 cursor-pointer;
+}
+
+.schedule-changer-active{
+    @apply uppercase font-primary text-sub-head-5 md:text-sub-head-5 text-primary font-semibold inline-block mx-2 cursor-pointer;
+}
+
+.schedule-table-body-td{
+    @apply border font-medium font-primary border-gray-400 px-5 text-center py-4 text-sub-head-6 text-white;
+}
+
+.overflow-scroll-table{
+    @apply overflow-scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.overflow-scroll-table::-webkit-scrollbar {
+    display: none;
+}
