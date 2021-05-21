@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProgressBarWithLabel } from '../../Components';
 import placeImg from '../../assets/images/blog/blog.jpg';
+import './SubPortfolio.css'
 
 const SubPortfolio = () => {
     return (
@@ -17,13 +18,13 @@ const SubPortfolio = () => {
                         </span>
                     </div>
                     <div className={'mb-5'}>
-                        <ProgressBarWithLabel label='FITNESS TRAINING' progress={85} foreground='primary'/>
+                        <ProgressBarWithLabel label='FITNESS TRAINING' height={'heightForProgressbar'} progress={85} background={'backgroundClassForScrollbar'} foreground='forGroundClassForSrollbar'/>
                     </div>
                     <div className={'mb-5'}>
-                        <ProgressBarWithLabel label='BODY BUILDING' progress={75} foreground='primary' />
+                        <ProgressBarWithLabel label='BODY BUILDING' height={'heightForProgressbar'} progress={75} background={'backgroundClassForScrollbar'} foreground='forGroundClassForSrollbar' />
                     </div>
                     <div>
-                        <ProgressBarWithLabel label='CUSTOMER SERVICE' progress={85} foreground='primary' />
+                        <ProgressBarWithLabel label='CUSTOMER SERVICE' height={'heightForProgressbar'} progress={85} background={'backgroundClassForScrollbar'} foreground='forGroundClassForSrollbar' />
                     </div>
                 </div>
                 <div className={'col-span-10 lg:col-span-5 mt-10 lg:mt-0 lg:pl-10 pb-5 '}>

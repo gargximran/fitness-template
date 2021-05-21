@@ -26,9 +26,9 @@ const ProgressBarWithLabel = ({
 
             {/* ProgressBar */}
 
-            <div className={`bg-${background} h-${height} mt-2`}>
+            <div className={`${background} ${height} mt-2`}>
                 <div
-                    className={`bg-${foreground} h-${height}`}
+                    className={`${foreground} ${height}`}
                     style={{
                         width: progress + "%",
                     }}

@@ -1,0 +1,12 @@
+.forGroundClassForSrollbar{
+    @apply bg-primary;
+}
+
+.backgroundClassForScrollbar{
+    @apply bg-white;
+}
+
+
+.heightForProgressbar{
+    @apply h-4;
+}
