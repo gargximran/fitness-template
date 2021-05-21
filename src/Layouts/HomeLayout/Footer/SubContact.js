@@ -17,7 +17,7 @@ const SubContact = ({className}) => {
                 Dhanmondi, Dhaka, Bangladesh
             </div>
             <div className={'flex my-1'}>
-                <AiTwotonePhone className={'text-sub-head-5 mr-1 pt-1'}/>+1 (347) 306-5628
+                <AiTwotonePhone className={'text-sub-head-5 mr-1 pt-1'}/>+1 (316) 227-7653
             </div>
             <div className={'flex my-1'}> <MdEmail className={'text-sub-head-5 mr-2 pt-1'} />info@algosolver.com</div>
         </div>
