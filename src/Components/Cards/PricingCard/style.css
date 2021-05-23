@@ -1,0 +1,26 @@
+.pricing-card-wrapper{
+    transform: translate(-50%,-50%);
+    @apply text-center relative p-10 transform hover:scale-105 transition duration-700 
+}
+
+.pricing-card-style li{
+    @apply mb-2 md:mb-4 text-white font-primary 
+}
+
+.pricing-card-border-top{
+    border:1px solid white;
+     -webkit-transform: translateZ(0) skewY(-5deg);
+    @apply h-full w-full absolute top-0 left-0 
+
+}
+    
+
+.pricing-card-title{
+    @apply text-sub-head-3 font-bold text-white font-primary mt-5
+}
+
+
+
+.pricing-card-price{
+    @apply text-primary text-head-8 font-primary
+}

@@ -8,7 +8,7 @@ function PhysicalBenifitCard({ className, Logo, title, text }) {
 
       <div className={className}>
         <div className="text-center group">
-          <Logo className="w-16 h-16 p-3 mx-auto fill-current text-black rounded-full bg-white group-hover:bg-primary group-hover:text-white transition duration-700" />
+          <Logo className="physicalBenifit-card-logo"/>
           <h3 className="physicalBenifit-card-title ">{title}</h3>
           <p className="physicalBenifit-card-content">
             {text}

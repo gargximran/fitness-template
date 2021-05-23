@@ -5,6 +5,9 @@ import OurClassCard from "./Cards/OurClassCard";
 import PrimaryInput from "./Input/PrimaryInput";
 import ScheduleTable from "./Table/ScheduleTable";
 import TopHeroSection from "./Hero/TopHeroSection";
+import PhysicalBenifitCard from "./Cards/PhysicalBenifitCard";
+import PricingCard from "./Cards/PricingCard";
+import ServiceOfferCard from "./Cards/ServiceOfferCard";
 
 // export all components form here
 export {
@@ -14,5 +17,11 @@ export {
     OurClassCard,
     PrimaryInput,
     ScheduleTable,
-    TopHeroSection
+    TopHeroSection,
+    PricingCard,
+  PhysicalBenifitCard,
+  ServiceOfferCard,
 }
+
+
+

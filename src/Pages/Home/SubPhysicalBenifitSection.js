@@ -1,5 +1,5 @@
 import React from 'react'
-import PhysicalBenifitCard from '../../Components/Cards/PhysicalBenifitCard'
+import {PhysicalBenifitCard} from '../../Components'
 import { ReactComponent as DumbleLogo } from "../../assets/images/whyPeople/dumble.svg";
 import { ReactComponent as FemaleLogo } from "../../assets/images/whyPeople/female.svg";
 import { ReactComponent as MuscleLogo } from "../../assets/images/whyPeople/muscle.svg";

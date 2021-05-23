@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="muscle" width="current" height="current" viewBox="0 0 78.922 81.864" fill="current" stroke="current">
+<svg xmlns="http://www.w3.org/2000/svg" id="muscle" width="78.922" height="81.864" viewBox="0 0 78.922 81.864">
     <defs>
         <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
             <stop offset="0" stop-color="#ff2c00"/>
             <stop offset="1" stop-color="red"/>
         </linearGradient>
         <style>
-            .cls-1{fill:current, stroke:current}
+            .cls-1{fill:current}
         </style>
     </defs>
     <path id="Path_5430" d="M337.8 55.433a1.361 1.361 0 0 0 1.924 0l9.48-9.48a6.967 6.967 0 0 0-9.853-9.853l-.59.588-.588-.588a6.967 6.967 0 1 0-9.853 9.852zm-7.555-17.408a4.251 4.251 0 0 1 6 0l1.551 1.551a1.361 1.361 0 0 0 1.924 0l1.551-1.551a4.245 4.245 0 0 1 6 6l-8.518 8.517-8.517-8.517a4.244 4.244 0 0 1 0-6zm0 0" class="cls-1" transform="translate(-274.109 -28.617)"/>

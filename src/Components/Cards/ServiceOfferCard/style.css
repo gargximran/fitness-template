@@ -1,0 +1,11 @@
+.serviceOffer-card-wrapper {
+  @apply text-white h-full w-full mx-auto cursor-pointer relative ;
+}
+
+.serviceOffer-card-content {
+  @apply bg-primary w-full h-28 absolute bottom-0 left-0 opacity-0 transition duration-500 p-6;
+}
+
+.serviceOffer-card-wrapper:hover .serviceOffer-card-content {
+  @apply opacity-100;
+}

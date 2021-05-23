@@ -9,6 +9,10 @@
     z-index: 1;
 }
 
+.overlayMaker{
+    min-height: 300px;
+}
+
 .hero-title{
     @apply text-sub-head-1 md:text-head-4 font-primary text-white text-center w-full text-center absolute font-bold;
     top: 50%;

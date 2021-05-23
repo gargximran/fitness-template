@@ -1,0 +1,11 @@
+.ft-slick__dots--custom {
+  @apply h-1 mt-10 w-12 bg-gray-500;
+}
+
+.slick-dots li {
+  margin: 0 30px;
+}
+
+.slick-dots .slick-active .ft-slick__dots--custom {
+  @apply bg-primary;
+}

@@ -2,6 +2,11 @@
     @apply text-white lg:text-sub-head-4 font-bold font-primary mt-2 
 }
 
+.physicalBenifit-card-logo{
+@apply w-16 h-16 p-3 mx-auto fill-current text-black rounded-full bg-white group-hover:bg-primary group-hover:text-white transition duration-700
+}
+
+
 .physicalBenifit-card-content{
     @apply text-white text-xs font-primary mt-2
 }
